@@ -1,0 +1,17 @@
+:root {
+	--main-text: "Roboto", sans-serif;
+	--secondary-text: "Roboto Mono", monospace;
+}
+
+body {
+	font-family: var(--main-text);
+	margin: 0px;
+}
+
+header {
+	width: 100%;
+	background-color: #1f2937;
+	color: #f9faf8;
+	height: 300px;
+	padding: 5px;
+}
