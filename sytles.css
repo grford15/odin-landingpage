@@ -12,6 +12,14 @@ header {
 	width: 100%;
 	background-color: #1f2937;
 	color: #f9faf8;
-	height: 300px;
 	padding: 5px;
+}
+
+.header-content {
+	display: flex;
+}
+
+img {
+	width: 400px;
+	height: 275px;
 }
