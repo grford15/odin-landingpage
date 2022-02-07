@@ -17,12 +17,14 @@ header {
 .nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .nav ul {
 	display: flex;
 	justify-content: space-between;
 	font-size: 18px;
+	margin: 5px;
 }
 
 .nav li {
@@ -31,15 +33,34 @@ header {
 	padding: 0px 5px;
 }
 
+.nav a {
+	color: #e5e7eb;
+	text-decoration: none;
+}
+
 .nav h4 {
 	font-size: 24px;
+	margin: 5px;
 }
 
 .header-content {
 	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin: 20px;
+	padding: 50px;
 }
 
 img {
-	width: 400px;
+	width: 500px;
 	height: 275px;
+}
+
+button {
+	background-color: #3882f6;
+	color: #e5e7eb;
+	border-radius: 5px;
+	padding: 5px 20px;
+	border: none;
+	font-weight: 600;
 }
