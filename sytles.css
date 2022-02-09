@@ -65,11 +65,20 @@ button {
 	font-weight: 600;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+}
+
 .main-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.main-content h3 {
+	font-weight: 900;
 }
 
 .image-container {
@@ -82,12 +91,12 @@ button {
 
 .image-div {
 	height: 100px;
-	width: 90px;
+	width: 140px;
 }
 
 .image-placeholder {
 	border: 1px #3882f6 solid;
 	border-radius: 5px;
-	height: 80px;
-	width: 90px;
+	height: 120px;
+	width: 140px;
 }
