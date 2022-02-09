@@ -68,13 +68,14 @@ button {
 main {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
 }
 
 .main-content {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	height: 300px;
 }
 
 .main-content h3 {
@@ -99,4 +100,9 @@ main {
 	border-radius: 5px;
 	height: 120px;
 	width: 140px;
+}
+
+.quote-container {
+	background-color: #e5e7eb;
+	color: #1f2937;
 }
